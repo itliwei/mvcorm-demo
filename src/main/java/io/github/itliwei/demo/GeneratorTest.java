@@ -27,7 +27,7 @@ public class GeneratorTest {
         config.setEntityPackage("com.ziroom.tech.imserver.entity");
 
         config.setUsername("root");
-        config.setPassword("Mysql2ol9");
+        config.setPassword("111");
         config.setUseLombok(true);
 
         Generator.generate(config
