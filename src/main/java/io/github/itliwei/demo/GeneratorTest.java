@@ -23,8 +23,8 @@ public class GeneratorTest {
         String projectPath = new File("").getAbsolutePath();
         Config config = new Config();
         config.setGenLogFile(Paths.get(System.getProperty("user.home"), "gen.log").toString());
-        config.setUrl("jdbc:mysql://106.13.146.82:3306/test?useSSL=false");
-        config.setEntityPackage("com.ziroom.tech.imserver.entity");
+        config.setUrl("jdbc:mysql://127.0.0.1:3306/test?useSSL=false");
+        config.setEntityPackage("io.github.itliwei.demo.entity.User");
 
         config.setUsername("root");
         config.setPassword("111");
@@ -34,6 +34,8 @@ public class GeneratorTest {
                 , new VoHandler()
                 , new QueryModelHandler()
                 , new ServiceHandler()
+                //, new ControllerHandler()
+                //, new ElementHandler()
                , new MysqlHandler(true)
         );
 
