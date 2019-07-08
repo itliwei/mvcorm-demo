@@ -2,9 +2,9 @@ package io.github.itliwei.demo;
 
 import io.github.itliwei.demo.entity.User;
 import io.github.itliwei.demo.service.UserService;
-import io.github.itliwei.mvcorm.UserQueryModel;
 import io.github.itliwei.mvcorm.orm.IdEntity;
 import io.github.itliwei.mvcorm.orm.opt.Page;
+import io.github.itliwei.mvcorm.query.UserQueryModel;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
